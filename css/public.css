@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.page-header {
+    text-align: center;
+    line-height: 3;
+    border-bottom: 1px solid lightgray;
+    background: linear-gradient(360deg, lightgray 0%, white 50%);
+}
+
+#list {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+#list li{
+    border: 1px solid #4c4aca;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#list li a {
+    text-decoration: none;
+    color: unset;
+}
+
+#list li:hover{
+    background-color: rgba(211, 211, 211, .5);
+}
+
+#ads-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#ads-table thead tr:last-child th {
+    border-bottom: 1px solid lightgray;
+}
+
+#ads-table tbody tr:nth-child(even) {
+    background-color: rgba(211, 211, 211, .5);
+}
